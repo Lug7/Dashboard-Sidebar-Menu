@@ -68,11 +68,11 @@ body
     transform: translateY(5px);
     transition: 1s;
 }
-.navigation active .toggle::before
+.navigation.active .toggle::before
 {
     transform: translateY(0px) rotate(-405deg);
 }
-.navigation active .toggle::after
+.navigation.active .toggle::after
 {
     transform: translateY(0px) rotate(225deg);
 }
